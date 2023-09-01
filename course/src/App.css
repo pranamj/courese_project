@@ -1,0 +1,69 @@
+.heading_name {
+  border: solid red 1px;
+}
+
+/* //Nav bar css */
+
+/* Navbar.css (Create a new CSS file if you haven't already) */
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.Horizontal-Container {
+  display: flex; /* Use flexbox to arrange components horizontally */
+  align-items: center; /* Vertically align items in the center */
+  justify-content: space-around;
+}
+
+.green-background {
+  background-color: green; /* Set the background color to green for the top half */
+  height: 50%; /* Adjust the height of the green section as needed */
+}
+
+.white-background {
+  background-color: white; /* Set the background color to white for the bottom half */
+  height: 50%; /* Adjust the height of the white section as needed */
+}
+
+.custom-background {
+  background-color: #D2E6E4;
+  color: black; /* Set text color to a contrasting color for readability */
+  padding: 10px; /* Add padding for spacing */
+  height: 100%;
+}
+
+.text-content {
+  color: #0B7077;
+  font-size: 45px;
+}
+
+
+
+
+
+
